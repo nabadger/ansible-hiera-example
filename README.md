@@ -1,7 +1,7 @@
 Role Name
 =========
 
-ansible-hello-world
+ansible-playbook setup.yml
 
 License
 -------
