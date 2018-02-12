@@ -1,0 +1,10 @@
+---
+:backends:
+  - yaml
+
+:hierarchy:
+  - "%{environment}"
+  - default
+
+:yaml:
+  :datadir: ./data
