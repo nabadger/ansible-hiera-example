@@ -1,0 +1,16 @@
+---
+# tasks file for ansible-hiera-example
+#
+- name: "hiera default msg"
+  debug: msg={{ lookup('hiera', 'msg') }}
+
+- name: "hiera production msg"
+  debug: msg={{ lookup('hiera', 'msg environment=production') }}
+
+- name: "hiera common msg (no env)"
+  debug: msg={{ lookup('hiera', 'common_msg') }}
+
+- name: "hiera common msg (env=production)"
+  debug: msg={{ lookup('hiera', 'common_msg environment=production') }}
+
+

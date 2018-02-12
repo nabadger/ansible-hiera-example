@@ -1,5 +1,11 @@
 ---
-a_var: 'this is a default variable'
-a_list:
-      - '192.168.1.1'
-      - '192.168.1.2'
+msg: 'hello from hiera (default)'
+
+common_msg: 'hello from hiera (common - default)'
+
+list:
+    - 'listval (default) 1'
+    - 'listval (default) 2'
+    - 'listval (default) 3'
+    - 'listval (default) 4'
+    - 'listval (default) 5'

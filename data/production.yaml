@@ -1,6 +1,9 @@
 ---
-a_var: 'this is a production variable'
-a_list:
-      - '192.168.1.3'
+msg: 'hello from hiera (production)'
 
-a_production_var: 'this is only avail in production'
+list:
+    - 'listval (production) 6'
+    - 'listval (production) 7'
+    - 'listval (production) 8'
+    - 'listval (production) 9'
+    - 'listval (production) 10'

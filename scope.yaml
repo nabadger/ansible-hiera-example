@@ -1,4 +1,1 @@
 environment: production
-
-ip_list:
-    - "192.168.1.3"
